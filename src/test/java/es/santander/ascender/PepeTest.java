@@ -7,8 +7,14 @@ import org.junit.jupiter.api.Test;
 public class PepeTest {
     @Test
     public void testSumar(){
+        //Preparo
         Pepe sut = new Pepe();
-                assertTrue(sut.sumar(4, 3) == 7);
+
+        //Ejecuto
+        int resultado = sut.sumar (4,3)
+        
+        //Verifico
+        assertTrue(resultado == 7);
     }
 
 }
