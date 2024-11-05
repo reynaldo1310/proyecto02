@@ -11,7 +11,7 @@ public class PepeTest {
         Pepe sut = new Pepe();
 
         //Ejecuto
-        int resultado = sut.sumar (4,3)
+        int resultado = sut.sumar (4,3);
         
         //Verifico
         assertTrue(resultado == 7);
